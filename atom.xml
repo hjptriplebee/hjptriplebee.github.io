@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://hjptriplebee.github.io/"/>
-  <updated>2018-01-21T15:50:30.518Z</updated>
+  <updated>2018-01-23T11:32:50.963Z</updated>
   <id>https://hjptriplebee.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>test</title>
+    <link href="https://hjptriplebee.github.io/test.html/"/>
+    <id>https://hjptriplebee.github.io/test.html/</id>
+    <published>2018-01-23T08:59:36.000Z</published>
+    <updated>2018-01-23T11:32:50.963Z</updated>
+    
+    <content type="html"><![CDATA[<p>#测试<br>hello world！的</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;#测试&lt;br&gt;hello world！的&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+      <category term="其他" scheme="https://hjptriplebee.github.io/categories/other/"/>
+    
+    
+      <category term="其他" scheme="https://hjptriplebee.github.io/tags/other/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
