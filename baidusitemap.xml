@@ -4,19 +4,21 @@
 
     
   <url>
-    <loc>https://hjptriplebee.github.io/test.html/</loc>
-    <lastmod>2018-01-23T11:32:50.963Z</lastmod>
+    <loc>https://hjptriplebee.github.io/hexo%E7%9A%84SEO%E6%96%B9%E6%B3%95.html/</loc>
+    <lastmod>2018-01-23T14:02:05.781Z</lastmod>
     <data>
         <display>
-        <title>test</title>
-        <pubTime>2018-01-23T08:59:36.000Z</pubTime>
+        <title>hexo的SEO方法</title>
+        <pubTime>2018-01-23T13:23:59.000Z</pubTime>
         
-        <tag>其他</tag>
+        <tag>黑科技</tag>
+         
+        <tag>SEO</tag>
          
          
            
              
-              <breadCrumb title="其他" url="https://hjptriplebee.github.io/categories/other/"/>
+              <breadCrumb title="网络" url="https://hjptriplebee.github.io/categories/%E7%BD%91%E7%BB%9C/"/>
           
         </display>
     </data>
@@ -24,19 +26,4 @@
 
     
     
-    
-  <url>
-    <loc>https://hjptriplebee.github.io/hello-world.html/</loc>
-    <lastmod>2018-01-21T15:50:30.518Z</lastmod>
-    <data>
-        <display>
-        <title>Hello World</title>
-        <pubTime>2018-01-21T15:50:30.517Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
 </urlset>
