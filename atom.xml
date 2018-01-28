@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>triplebee搞事情</title>
   
-  <subtitle>深度学习</subtitle>
+  <subtitle>深度学习,计算机视觉</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://hjptriplebee.github.io/"/>
