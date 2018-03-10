@@ -4,6 +4,30 @@
 
     
   <url>
+    <loc>https://hjptriplebee.github.io/hexo%E7%9A%84SEO%E6%96%B9%E6%B3%95.html/</loc>
+    <lastmod>2018-03-10T07:38:15.933Z</lastmod>
+    <data>
+        <display>
+        <title>hexo的SEO方法</title>
+        <pubTime>2018-01-23T13:23:59.000Z</pubTime>
+        
+        <tag>SEO</tag>
+         
+        <tag>hexo</tag>
+         
+        <tag>搜索引擎优化</tag>
+         
+         
+           
+             
+              <breadCrumb title="网络" url="https://hjptriplebee.github.io/categories/%E7%BD%91%E7%BB%9C/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://hjptriplebee.github.io/Google%E9%9D%A2%E8%AF%95%E7%BB%8F%E5%8E%86-%E4%B8%80.html/</loc>
     <lastmod>2018-02-07T11:18:52.365Z</lastmod>
     <data>
@@ -29,30 +53,6 @@
     </url>
 
     
-    
-  <url>
-    <loc>https://hjptriplebee.github.io/hexo%E7%9A%84SEO%E6%96%B9%E6%B3%95.html/</loc>
-    <lastmod>2018-01-28T12:45:03.294Z</lastmod>
-    <data>
-        <display>
-        <title>hexo的SEO方法</title>
-        <pubTime>2018-01-23T13:23:59.000Z</pubTime>
-        
-        <tag>SEO</tag>
-         
-        <tag>hexo</tag>
-         
-        <tag>搜索引擎优化</tag>
-         
-         
-           
-             
-              <breadCrumb title="网络" url="https://hjptriplebee.github.io/categories/%E7%BD%91%E7%BB%9C/"/>
-          
-        </display>
-    </data>
-    </url>
-
     
     
 </urlset>
