@@ -112,7 +112,7 @@
     root: '/',
     scheme: 'Mist',
     version: '5.1.4',
-    sidebar: {"position":"left","display":"always","offset":12,"b2t":false,"scrollpercent":true,"onmobile":true},
+    sidebar: {"position":"left","display":"always","offset":12,"b2t":false,"scrollpercent":true,"onmobile":false},
     fancybox: true,
     tabs: true,
     motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
@@ -339,7 +339,7 @@
 <li>其它开源项目详见<a href="https://github.com/hjptriplebee" target="_blank" rel="noopener">Github</a></li>
 </ul>
 <h2 id="联系方式"><a href="#联系方式" class="headerlink" title="联系方式"></a>联系方式</h2><ul>
-<li>Email: <a href="&#109;&#x61;&#x69;&#108;&#116;&#x6f;&#x3a;&#x68;&#x75;&#97;&#x6e;&#103;&#106;&#x69;&#112;&#101;&#110;&#103;&#x6e;&#x6a;&#x75;&#64;&#x67;&#x6d;&#x61;&#105;&#x6c;&#46;&#99;&#111;&#109;">&#x68;&#x75;&#97;&#x6e;&#103;&#106;&#x69;&#112;&#101;&#110;&#103;&#x6e;&#x6a;&#x75;&#64;&#x67;&#x6d;&#x61;&#105;&#x6c;&#46;&#99;&#111;&#109;</a> （请描述清楚来信原因，否则可能被算法过滤）</li>
+<li>Email: <a href="&#x6d;&#97;&#105;&#108;&#x74;&#111;&#x3a;&#x68;&#117;&#97;&#x6e;&#x67;&#x6a;&#x69;&#x70;&#x65;&#110;&#x67;&#110;&#106;&#117;&#64;&#103;&#x6d;&#97;&#105;&#x6c;&#x2e;&#x63;&#111;&#109;">&#x68;&#117;&#97;&#x6e;&#x67;&#x6a;&#x69;&#x70;&#x65;&#110;&#x67;&#110;&#106;&#117;&#64;&#103;&#x6d;&#97;&#105;&#x6c;&#x2e;&#x63;&#111;&#109;</a> （请描述清楚来信原因，否则可能被算法过滤）</li>
 <li>Github: <a href="https://github.com/hjptriplebee" target="_blank" rel="noopener">https://github.com/hjptriplebee</a> （欢迎follow、fork、star）<br>其余链接见左边边栏，二维码觉得这是一个严肃的场合，所以没有出现！</li>
 </ul>
 
@@ -385,8 +385,6 @@
   </div>
 
   <aside id="sidebar" class="sidebar">
-    
-      <div id="sidebar-dimmer"></div>
     
     <div class="sidebar-inner">
 
@@ -518,9 +516,35 @@
                   </li><br />
                 
               </ul>
-            </div>
-          
+			  <div id="days"></div>
+</script>
+<script language="javascript">
+function show_date_time(){
+window.setTimeout("show_date_time()", 1000);
+BirthDay=new Date("01/23/2018 19:00:00");
+today=new Date();
+timeold=(today.getTime()-BirthDay.getTime());
+sectimeold=timeold/1000
+secondsold=Math.floor(sectimeold);
+msPerDay=24*60*60*1000
+e_daysold=timeold/msPerDay
+daysold=Math.floor(e_daysold);
+e_hrsold=(e_daysold-daysold)*24;
+hrsold=setzero(Math.floor(e_hrsold));
+e_minsold=(e_hrsold-hrsold)*60;
+minsold=setzero(Math.floor((e_hrsold-hrsold)*60));
+seconds=setzero(Math.floor((e_minsold-minsold)*60));
+document.getElementById('days').innerHTML="已运行"+daysold+"天"+hrsold+"小时"+minsold+"分"+seconds+"秒";
+}
+function setzero(i){
+if (i<10)
+{i="0" + i};
+return i;
+}
+show_date_time();
+</script>
 
+            </div>
           
 
         </div>
@@ -557,8 +581,8 @@
     <footer id="footer" class="footer">
       <div class="footer-inner">
         <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
-  <span class="with-love">
-    <i class="fa fa-user"></i>
+  <span class="with-love" id="heart">
+    <i class="fa fa-heart"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">Jipeng Huang</span>
 
@@ -581,6 +605,14 @@
 
 
 
+
+<div class="weixin-box">
+  <div class="weixin-menu">
+    <div class="weixin-hover">
+      <div class="weixin-description">微信扫一扫，订阅本博客</div>
+    </div>
+  </div>
+</div>
 
         
 <div class="busuanzi-count">
