@@ -445,7 +445,7 @@ body {
 .header-inner {
   margin: 0 auto;
   padding: 100px 0 70px;
-  width: 1000px;
+  width: 950px;
 }
 @media (min-width: 1600px) {
   .container .header-inner {
@@ -457,7 +457,7 @@ body {
 }
 .main-inner {
   margin: 0 auto;
-  width: 1000px;
+  width: 950px;
 }
 @media (min-width: 1600px) {
   .container .main-inner {
@@ -474,7 +474,7 @@ body {
 .footer-inner {
   box-sizing: border-box;
   margin: 20px auto;
-  width: 1000px;
+  width: 950px;
 }
 @media (min-width: 1600px) {
   .container .footer-inner {
@@ -1963,7 +1963,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #70bd50;
+  background: #a85e32;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3097,7 +3097,7 @@ hr {
   border-bottom: 8px solid #aaa;
 }
 .container {
-  background: url("https://raw.githubusercontent.com/hjptriplebee/gitment/master/background.jpg");
+  background: url("/uploads/background.jpg");
   background-attachment: fixed;
   background-position: 50% 50%;
   background-size: cover;
@@ -3110,12 +3110,14 @@ hr {
 .post-body p a {
   border-bottom: 0px solid #0593d3;
 }
+.posts-expand .post-body ul li {
+  list-style: square;
+}
 .post-button .btn {
-  color: #555 !important;
-  background-color: #fff;
+  color: #ccc !important;
   border-radius: 3px;
   font-size: 15px;
-  box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.35);
+  box-shadow: inset 0px 0px 10px 3px rgba(201,151,203,0.35);
   border: none !important;
   transition-property: unset;
   padding: 0px 15px;
@@ -3145,6 +3147,7 @@ hr {
   transition-duration: 0.2s;
   transition-timing-function: ease-in-out;
   transition-delay: 0s;
+  box-shadow: inset 0px 0px 10px 2px rgba(190,150,190,0.3);
 }
 .posts-expand .post-tags a:hover {
   background: #eee;
@@ -3153,7 +3156,7 @@ hr {
   background: transparent;
 }
 li {
-  color: #b4b4b4;
+  color: #c8c8c8;
 }
 .post-nav-item a {
   color: #0593d3;
@@ -3190,6 +3193,9 @@ h6 {
 .posts-expand .post-body h6 {
   color: #c8c8c8;
 }
+.posts-expand .post-body {
+  color: #a165a1;
+}
 .posts-expand .post-title-link {
   color: #ccc;
 }
@@ -3220,7 +3226,7 @@ h6 {
 }
 .sidebar {
   box-shadow: inset 0px 0px 10px 3px rgba(100,100,100,0.4);
-  background: url("https://raw.githubusercontent.com/hjptriplebee/gitment/master/background.jpg");
+  background: url("/uploads/background.jpg");
   background-attachment: fixed;
   background-position: 50% 50%;
   background-size: cover;
@@ -3424,8 +3430,8 @@ h6 {
   color: #fff;
 }
 a {
-  color: #fff;
-  border-bottom-color: #fff;
+  color: #bbb;
+  border-bottom-color: #bbb;
 }
 @media (max-width: 767px) {
   .category-all-page {
@@ -3436,11 +3442,18 @@ a {
   }
 }
 .page-post-detail .post-title,
-.page-post-detail .post-meta {
+.page-post-detail {
   color: #fff;
 }
+.post-meta {
+  color: #999;
+}
+.posts-expand .post-title,
+.posts-expand .post-meta {
+  text-align: center;
+}
 p {
-  color: #d2d2d2;
+  color: #c8c8c8;
 }
 .local-search-popup .search-icon,
 .local-search-popup .popup-btn-close {
@@ -3529,6 +3542,10 @@ p {
 }
 .weixin-menu:hover .weixin-description {
   opacity: 1;
+}
+.menu .menu-item a {
+  font-size: 14px;
+  color: #fff;
 }
 @-moz-keyframes heartAnimate {
   0%, 100% {
