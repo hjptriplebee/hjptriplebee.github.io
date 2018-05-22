@@ -102,13 +102,12 @@
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="https://raw.githubusercontent.com/hjptriplebee/gitment/master/Travis%E4%B8%8ECodecov%E5%85%A5%E9%97%A8/travis_ci.png">
 <meta property="og:image" content="https://raw.githubusercontent.com/hjptriplebee/gitment/master/Travis%E4%B8%8ECodecov%E5%85%A5%E9%97%A8/icons.jpg">
-<meta property="og:image" content="https://travis-ci.org/hjptriplebee/Chinese_poem_generator.svg?branch=master">
 <meta property="og:image" content="https://raw.githubusercontent.com/hjptriplebee/gitment/master/Travis%E4%B8%8ECodecov%E5%85%A5%E9%97%A8/travisUage.jpg">
 <meta property="og:image" content="https://raw.githubusercontent.com/hjptriplebee/gitment/master/Travis%E4%B8%8ECodecov%E5%85%A5%E9%97%A8/codecov.png">
-<meta property="og:image" content="https://codecov.io/gh/hjptriplebee/Chinese_poem_generator/branch/master/graph/badge.svg">
 <meta property="og:image" content="https://raw.githubusercontent.com/hjptriplebee/gitment/master/Travis%E4%B8%8ECodecov%E5%85%A5%E9%97%A8/codecovUsage.jpg">
+<meta property="og:image" content="https://raw.githubusercontent.com/hjptriplebee/gitment/master/Travis%E4%B8%8ECodecov%E5%85%A5%E9%97%A8/icons.jpg">
 <meta property="og:image" content="https://img.shields.io/aur/license/yaourt.svg">
-<meta property="og:updated_time" content="2018-05-21T03:37:16.490Z">
+<meta property="og:updated_time" content="2018-05-22T06:49:08.110Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Github美化-Travis与Codecov入门">
 <meta name="twitter:description" content="【开源项目利器】利用Travis持续集成与Codecov测试覆盖率构建自动化测试环境，提升Github项目逼格。">
@@ -426,7 +425,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  1,173
+                  1,188
                 </span>
               
 
@@ -442,7 +441,7 @@
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
                 <span title="阅读时长">
-                  4
+                  5
                 </span>
               
           
@@ -463,8 +462,8 @@
 
       
         <p><img src="https://raw.githubusercontent.com/hjptriplebee/gitment/master/Travis%E4%B8%8ECodecov%E5%85%A5%E9%97%A8/travis_ci.png" width="550" height="367" alt="travis" align="center">【开源项目利器】利用Travis持续集成与Codecov测试覆盖率构建自动化测试环境，提升Github项目逼格。<br><a id="more"></a></p>
-<h2 id="始于颜值，陷于才华"><a href="#始于颜值，陷于才华" class="headerlink" title="始于颜值，陷于才华"></a>始于颜值，陷于才华</h2><p>测试对于一个项目的重要性是不言而喻的，而小的开源项目往往难以配备专门的测试团队，频繁的push代码会使得本就缺乏人手的测试难上加难，因而构建自动化测试环境对于小型开源项目十分有必要！<br><img src="https://raw.githubusercontent.com/hjptriplebee/gitment/master/Travis%E4%B8%8ECodecov%E5%85%A5%E9%97%A8/icons.jpg" alt="github icons">坦白说，我是一个先看脸的人，在不了解Travis和Codecov是做什么的时候，我学习他们的初衷只是觉得这样的图标放在Github上比较漂(zhuang)亮(bi)，然而当我弄懂了他们到底是干什么的时候，我觉得他们好胖胖哦！</p>
-<h2 id="Travis-CI"><a href="#Travis-CI" class="headerlink" title="Travis CI"></a>Travis CI</h2><h3 id="什么是Travis-CI？"><a href="#什么是Travis-CI？" class="headerlink" title="什么是Travis CI？"></a>什么是Travis CI？</h3><p><a href="https://travis-ci.org/hjptriplebee/Chinese_poem_generator" target="_blank" rel="noopener"><img src="https://travis-ci.org/hjptriplebee/Chinese_poem_generator.svg?branch=master" alt="Build Status"></a><a href="https://travis-ci.org/" target="_blank" rel="noopener">Travis CI</a>是一个托管的，分布式持续集成工具，主要用来构建和自动测试项目。当你push一段代码至github的时候，Travis会按照你预先配置的测试文件进行自动测试，并返回pass或fail的结果。<br>当然，我们也可以用travis来进行deploy，比如博客什么的。自动测试本质就是用机器运行一系列程序，所以可以在这些程序里加上deploy的命令达到这样的目的。比如：<br><figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">hexo d -g</span></span><br></pre></td></tr></table></figure></p>
+<h2 id="始于颜值，陷于才华"><a href="#始于颜值，陷于才华" class="headerlink" title="始于颜值，陷于才华"></a>始于颜值，陷于才华</h2><p>测试对于一个项目的重要性是不言而喻的，而小的开源项目往往难以配备专门的测试团队，频繁的push代码会使得本就缺乏人手的测试难上加难，因而构建自动化测试环境对于小型开源项目十分有必要！<br>坦白说，我是一个先看脸的人，在不了解Travis和Codecov是做什么的时候，我学习他们的初衷只是觉得这样的图标放在Github上比较漂(zhuang)亮(bi)，然而当我弄懂了他们到底是干什么的时候，我觉得他们好胖胖哦！<br><img src="https://raw.githubusercontent.com/hjptriplebee/gitment/master/Travis%E4%B8%8ECodecov%E5%85%A5%E9%97%A8/icons.jpg" alt="github icons"></p>
+<h2 id="Travis-CI"><a href="#Travis-CI" class="headerlink" title="Travis CI"></a>Travis CI</h2><h3 id="什么是Travis-CI？"><a href="#什么是Travis-CI？" class="headerlink" title="什么是Travis CI？"></a>什么是Travis CI？</h3><p><a href="https://travis-ci.org/" target="_blank" rel="noopener">Travis CI</a>是一个托管的，分布式持续集成工具，主要用来构建和自动测试项目。当你push一段代码至github的时候，Travis会按照你预先配置的测试文件进行自动测试，并返回pass或fail的结果。<br>当然，我们也可以用travis来进行deploy，比如博客什么的。自动测试本质就是用机器运行一系列程序，所以可以在这些程序里加上deploy的命令达到这样的目的。比如：<br><figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">hexo d -g</span></span><br></pre></td></tr></table></figure></p>
 <p>将其加入执行的测试script，测试主体部分pass之后会自动将博客推送上线。</p>
 <h3 id="如何用Travis-CI？"><a href="#如何用Travis-CI？" class="headerlink" title="如何用Travis CI？"></a>如何用Travis CI？</h3><ul>
 <li>有一个github账户和托管的仓库。</li>
@@ -485,7 +484,7 @@
 </li>
 </ul>
 <h2 id="Codecov"><a href="#Codecov" class="headerlink" title="Codecov"></a>Codecov</h2><p><img src="https://raw.githubusercontent.com/hjptriplebee/gitment/master/Travis%E4%B8%8ECodecov%E5%85%A5%E9%97%A8/codecov.png" width="300" height="300" alt="Codecov" align="center"></p>
-<h3 id="什么是Codecov？"><a href="#什么是Codecov？" class="headerlink" title="什么是Codecov？"></a>什么是Codecov？</h3><p><a href="https://codecov.io/gh/hjptriplebee/Chinese_poem_generator" target="_blank" rel="noopener"><img src="https://codecov.io/gh/hjptriplebee/Chinese_poem_generator/branch/master/graph/badge.svg" alt="codecov"></a><a href="https://codecov.io/gh" target="_blank" rel="noopener">Codecov</a>是一个测试结果分析工具，travis负责执行测试，Codecov负责分析测试结果，最简单的用法就是衡量测试代码覆盖度，当然更高端的用法还有待继续学习。依赖于travis，Codecov非常简单就能上手。</p>
+<h3 id="什么是Codecov？"><a href="#什么是Codecov？" class="headerlink" title="什么是Codecov？"></a>什么是Codecov？</h3><p><a href="https://codecov.io/gh" target="_blank" rel="noopener">Codecov</a>是一个测试结果分析工具，travis负责执行测试，Codecov负责分析测试结果，最简单的用法就是衡量测试代码覆盖度，当然更高端的用法还有待继续学习。依赖于travis，Codecov非常简单就能上手。</p>
 <h3 id="如何用Codecov？"><a href="#如何用Codecov？" class="headerlink" title="如何用Codecov？"></a>如何用Codecov？</h3><ul>
 <li>去<a href="https://codecov.io" target="_blank" rel="noopener">Codecov官网</a>用github账号登陆并授权，选择要分析的仓库。</li>
 <li>修改.travis.yml文件如下：<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">language:</span> <span class="string">python</span></span><br><span class="line"><span class="attr">python:</span> <span class="string">"3.6"</span></span><br><span class="line"></span><br><span class="line"><span class="attr">notifications:</span>      <span class="comment"># 邮箱通知</span></span><br><span class="line"><span class="attr">  email:</span> <span class="literal">false</span></span><br><span class="line"></span><br><span class="line"><span class="attr">sudo:</span> <span class="literal">false</span> <span class="comment">#有定制化开发环境需要，默认false，不开启容器，编译效率高</span></span><br><span class="line"></span><br><span class="line"><span class="attr">before_install:</span> </span><br><span class="line"><span class="bullet">  -</span> <span class="string">pip</span> <span class="string">install</span> <span class="string">tensorflow</span> <span class="comment">#加sudo默认系统环境里的python，使用虚拟环境需加-E参数 </span></span><br><span class="line"><span class="bullet">  -</span> <span class="string">pip</span> <span class="string">install</span> <span class="string">codecov</span> </span><br><span class="line"><span class="bullet">  -</span> <span class="string">pip</span> <span class="string">install</span> <span class="string">coverage</span></span><br><span class="line"></span><br><span class="line"><span class="attr">install:</span> <span class="literal">true</span></span><br><span class="line"></span><br><span class="line"><span class="attr">script:</span> </span><br><span class="line"><span class="bullet">  -</span> <span class="string">coverage</span> <span class="string">run</span> <span class="string">main.py</span></span><br><span class="line"></span><br><span class="line"><span class="attr">after_success:</span></span><br><span class="line"><span class="bullet">  -</span> <span class="string">codecov</span> <span class="comment">#运行codecov</span></span><br></pre></td></tr></table></figure>
@@ -500,9 +499,10 @@
 <li>点settings-&gt;badge，将下面这种格式的语句写入readme或其它markdown文件即可看到小图标。</li>
 </ul>
 <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[<span class="string">![codecov</span>](<span class="link">https://codecov.io/gh/hjptriplebee/Chinese_poem_generator/branch/master/graph/badge.svg</span>)](<span class="link">https://codecov.io/gh/hjptriplebee/Chinese_poem_generator</span>)</span><br></pre></td></tr></table></figure>
+<p>最终效果如下：<br><img src="https://raw.githubusercontent.com/hjptriplebee/gitment/master/Travis%E4%B8%8ECodecov%E5%85%A5%E9%97%A8/icons.jpg" alt="github icons"></p>
 <h2 id="结束"><a href="#结束" class="headerlink" title="结束"></a>结束</h2><p>以上就是travis和codecov的一些基本用法，算是快速入门吧。还有一些复杂的用法需要今后不断学习。</p>
 <h2 id="Bonus"><a href="#Bonus" class="headerlink" title="Bonus"></a>Bonus</h2><p>其它github小图标，类似这种：<a href="https://github.com/hjptriplebee/Chinese_poem_generator/blob/master/LICENSE" target="_blank" rel="noopener"><img src="https://img.shields.io/aur/license/yaourt.svg" alt="license"></a>可以从<a href="http://shields.io/" target="_blank" rel="noopener">这里</a>获取。</p>
-
+<div>★ 你可能喜欢 ★<ul><li><a href="https://hjptriplebee.github.io/hexo的SEO方法.html/">hexo的SEO方法</a></li></ul></div>
       
     </div>
     
