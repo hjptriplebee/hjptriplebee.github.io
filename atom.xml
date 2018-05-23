@@ -34,8 +34,6 @@
       <category term="工具" scheme="https://hjptriplebee.github.io/categories/%E5%B7%A5%E5%85%B7/"/>
     
     
-      <category term="黑科技" scheme="https://hjptriplebee.github.io/tags/%E9%BB%91%E7%A7%91%E6%8A%80/"/>
-    
       <category term="Travis" scheme="https://hjptriplebee.github.io/tags/Travis/"/>
     
       <category term="Codecov" scheme="https://hjptriplebee.github.io/tags/Codecov/"/>
@@ -49,6 +47,8 @@
       <category term="Readme美化" scheme="https://hjptriplebee.github.io/tags/Readme%E7%BE%8E%E5%8C%96/"/>
     
       <category term="工具" scheme="https://hjptriplebee.github.io/tags/%E5%B7%A5%E5%85%B7/"/>
+    
+      <category term="黑科技" scheme="https://hjptriplebee.github.io/tags/%E9%BB%91%E7%A7%91%E6%8A%80/"/>
     
   </entry>
   
@@ -168,13 +168,13 @@
       <category term="网络" scheme="https://hjptriplebee.github.io/categories/%E7%BD%91%E7%BB%9C/"/>
     
     
+      <category term="黑科技" scheme="https://hjptriplebee.github.io/tags/%E9%BB%91%E7%A7%91%E6%8A%80/"/>
+    
       <category term="SEO" scheme="https://hjptriplebee.github.io/tags/SEO/"/>
     
       <category term="hexo" scheme="https://hjptriplebee.github.io/tags/hexo/"/>
     
       <category term="搜索引擎优化" scheme="https://hjptriplebee.github.io/tags/%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E4%BC%98%E5%8C%96/"/>
-    
-      <category term="黑科技" scheme="https://hjptriplebee.github.io/tags/%E9%BB%91%E7%A7%91%E6%8A%80/"/>
     
   </entry>
   

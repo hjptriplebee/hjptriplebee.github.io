@@ -1963,7 +1963,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #d69414;
+  background: #cbbacc;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3371,12 +3371,16 @@ h6 {
   line-height: 2;
 }
 #needsharebutton-float .btn {
+  padding: 2px 18px 1px 10px;
   color: #fff;
   border-color: #fff;
 }
 #needsharebutton-float .btn:hover {
   color: #000;
   border-color: #fff;
+}
+.comments {
+  margin: 20px 20px -1px;
 }
 .posts-collapse {
   margin: 50px 0px;
@@ -3494,11 +3498,22 @@ p {
   color: #e696d2;
 }
 .weixin-box {
-  position: absolute;
-  bottom: 43px;
+  position: fixed;
   left: 10px;
+  bottom: 80px;
+  z-index: 1050;
   border-radius: 5px;
   box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.35);
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .weixin-box {
+    display: none !important;
+  }
+}
+@media (max-width: 767px) {
+  .weixin-box {
+    display: none !important;
+  }
 }
 .weixin-menu {
   position: relative;
@@ -3538,6 +3553,7 @@ p {
   left: 5%;
   right: 5%;
   font-size: 12px;
+  color: #000;
   transition: all 0.35s cubic-bezier(1, 0, 0, 1);
 }
 .weixin-menu:hover .weixin-description {

@@ -57,8 +57,6 @@
         
         <tags>
             
-            <tag> 黑科技 </tag>
-            
             <tag> Travis </tag>
             
             <tag> Codecov </tag>
@@ -72,6 +70,8 @@
             <tag> Readme美化 </tag>
             
             <tag> 工具 </tag>
+            
+            <tag> 黑科技 </tag>
             
         </tags>
         
@@ -302,13 +302,13 @@
         
         <tags>
             
+            <tag> 黑科技 </tag>
+            
             <tag> SEO </tag>
             
             <tag> hexo </tag>
             
             <tag> 搜索引擎优化 </tag>
-            
-            <tag> 黑科技 </tag>
             
         </tags>
         
