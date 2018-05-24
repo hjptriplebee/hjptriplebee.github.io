@@ -1963,7 +1963,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffffed;
+  background: #6b6eac;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3091,6 +3091,12 @@ hr {
   margin-top: 40px;
   border-bottom: 1.5px solid rgba(202,150,203,0.5);
 }
+.use-motion .post-header {
+  transform-origin: left center;
+}
+.use-motion .post-body {
+  transform-origin: left center;
+}
 .header {
   line-height: 1.5;
   background-image: linear-gradient(90deg, #f79533 0%, #f37055 15%, #ef4e7b 30%, #a166ab 44%, #5073b8 58%, #1098ad 72%, #07b39b 86%, #6dba82 100%);
@@ -3193,9 +3199,6 @@ h6 {
 .posts-expand .post-body h6 {
   color: #c8c8c8;
 }
-.posts-expand .post-body {
-  color: #a165a1;
-}
 .posts-expand .post-title-link {
   color: #ccc;
 }
@@ -3226,9 +3229,7 @@ h6 {
 }
 .sidebar {
   box-shadow: inset 0px 0px 10px 3px rgba(100,100,100,0.4);
-  background: url("/uploads/background.jpg");
-  background-attachment: fixed;
-  background-position: 50% 50%;
+  background-image: url("/uploads/background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -3271,12 +3272,18 @@ h6 {
   box-shadow: 0px 0px 32px 0px rgba(255,255,255,0.8);
   padding: 0px;
   background: url("/uploads/author.jpg");
-  background-size: contain;
+  background-size: 100% 100%;
+}
+.author-image-preloader {
+  background: url("/uploads/author2.jpg");
+  height: 0;
+  width: 0;
+  display: inline;
 }
 .site-author-image:hover {
   box-shadow: 0px 0px 52px 0px rgba(255,255,255,0.8);
   background: url("/uploads/author2.jpg");
-  background-size: contain;
+  background-size: 100% 100%;
 }
 .site-description {
   letter-spacing: 3px;

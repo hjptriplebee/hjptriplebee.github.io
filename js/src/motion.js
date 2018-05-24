@@ -7,7 +7,7 @@ $(document).ready(function () {
         $('aside#sidebar').css("display","none");
         $('body').css("paddingLeft","0px");
     }
-	}
+  }
 	window.onresize = function(){
 		var bwos=document.body.offsetWidth;
 		bwos < 975 && $('body').velocity('stop').velocity({paddingLeft: 0},0);
