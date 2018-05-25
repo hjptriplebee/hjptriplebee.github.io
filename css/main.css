@@ -1963,7 +1963,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #6ebdff;
+  background: #c811ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3092,6 +3092,9 @@ hr {
 }
 .use-motion .post-body {
   transform-origin: left center;
+}
+.posts-collapse .post-header {
+  margin-right: 75px;
 }
 .header {
   line-height: 1.5;
