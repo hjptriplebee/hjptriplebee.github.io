@@ -1,20 +1,34 @@
 /* global NexT: true */
 
 $(document).ready(function () {
-  window.onload=function(){
-    var bwol=document.body.offsetWidth;
-    if(bwol < 975){
-        $('aside#sidebar').css("display","none");
-        $('body').css("paddingLeft","0px");
-    }
-  }
-	window.onresize = function(){
-		var bwos=document.body.offsetWidth;
-		bwos < 975 && $('body').velocity('stop').velocity({paddingLeft: 0},0);
-		if($('aside#sidebar').css('display') != 'none' && $('aside#sidebar').css('width')!='0px')
-        $('body').velocity('stop').velocity({paddingLeft: 350},0);
-	}
+ 
 	NexT.motion = {};
+	 // my custom code begin
+  window.onload=function(){
+      var bwol=document.body.offsetWidth;
+      var live2d=document.getElementById('live2dcanvas');
+      if(bwol < 975){
+          $('aside#sidebar').css("display","none");
+          $('body').css("paddingLeft","0px");
+      }
+      bwol < 750 ? live2d.style.visibility="hidden" : live2d.style.visibility="visible";
+  };
+
+  window.onresize = function(){
+      var bwos=document.body.offsetWidth;
+      var live2d=document.getElementById('live2dcanvas');
+      if(live2d){
+          bwos < 750 ? live2d.style.visibility="hidden" : live2d.style.visibility="visible";
+      }
+      bwos < 975 && $('body').velocity('stop').velocity({paddingLeft: 0},0);
+      if(bwos < 750)
+          myapc.APC_dom.css('display','none');
+      else
+          myapc.APC_dom.css('display','block');
+      if($('aside#sidebar').css("display") != "none" && $('aside#sidebar').css("width")!="0px")
+          $('body').velocity('stop').velocity({paddingLeft: 350},0);
+  };
+	//
 
   var sidebarToggleLines = {
     lines: [],
