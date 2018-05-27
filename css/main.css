@@ -1963,7 +1963,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #c9ed81;
+  background: #cb33ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3101,7 +3101,7 @@ hr {
   background-image: linear-gradient(90deg, #f79533 0%, #f37055 15%, #ef4e7b 30%, #a166ab 44%, #5073b8 58%, #1098ad 72%, #07b39b 86%, #6dba82 100%);
   border-bottom: 8px solid #aaa;
 }
-.container {
+.pace-done {
   background-image: url("/uploads/background.jpg");
   background-attachment: fixed;
   background-size: cover;
@@ -3216,9 +3216,7 @@ h6 {
 }
 .sidebar {
   box-shadow: inset 0px 0px 15px -1px #646464;
-  background-image: url("/uploads/background.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: transparent;
 }
 .sidebar-inner {
   margin-top: 30px;
