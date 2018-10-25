@@ -6,12 +6,12 @@
       <title><![CDATA[几个大厂的校招面经]]></title>
       <url>/%E5%87%A0%E4%B8%AA%E5%A4%A7%E5%8E%82%E7%9A%84%E6%A0%A1%E6%8B%9B%E9%9D%A2%E7%BB%8F.html/</url>
       <content type="html"><![CDATA[<p><img src="https://raw.githubusercontent.com/hjptriplebee/gitment/master/%E8%B0%B7%E6%AD%8C%EF%BC%8C%E5%BE%AE%E8%BD%AF%EF%BC%8C%E9%98%BF%E9%87%8C%EF%BC%8C%E7%BE%8E%E5%9B%A2%E5%AE%9E%E4%B9%A0%E7%94%9F%E9%9D%A2%E7%BB%8F/offer.jpg" width="550" height="367" alt="offer" align="center">校招面经！谷歌、微软、阿里等大厂面经!<a id="more"></a></p>
-<h2 id="基本情况"><a href="#基本情况" class="headerlink" title="基本情况"></a>基本情况</h2><p>收割情况：一共投递8家，收获4家special offer，1家转岗offer，1家没给面试机会，1家面试冲突放弃，1家等待offer中。<br>个人情况：某985硕士，常用语言C/C++、Python，研究方向为深度学习、计算机视觉，有论文，ACM等算法竞赛和数据挖掘类竞赛获奖经历，项目众多。有算法岗的都是投了算法岗，有深度学习的就投深度学习算法岗，有图像的就投图像深度学习算法岗。</p>
+<h2 id="基本情况"><a href="#基本情况" class="headerlink" title="基本情况"></a>基本情况</h2><p>收割情况：一共投递8家，收获微软、阿里、网易游戏、地平线4家special offer，今日头条转岗offer，腾讯没给面试机会，摩根士丹利面试冲突放弃，谷歌等待offer中。<br>个人情况：某985硕士，常用语言C/C++、Python，研究方向为深度学习、计算机视觉，有论文，ACM等算法竞赛和数据挖掘类竞赛获奖经历，项目众多。有算法岗的都是投了算法岗，有深度学习的就投深度学习算法岗，有图像的就投图像深度学习算法岗。</p>
 <h2 id="阿里巴巴"><a href="#阿里巴巴" class="headerlink" title="阿里巴巴"></a>阿里巴巴</h2><p>实习面试过了，校招直通终面，8月16日通知我面试安排在8月17日，且面试日期不可修改，没能去参加摩根士丹利的直通车，不知道有没有上黑名单。</p>
 <h3 id="终面技术面"><a href="#终面技术面" class="headerlink" title="终面技术面"></a>终面技术面</h3><p>8月17日，45min</p>
 <ul>
 <li>聊实习，聊项目。</li>
-<li>算法题：2<em>n的格子用1</em>1和2*1的砖块盖有多少种方法？典型DP，写了转移方程，面试官就说不用写代码了。</li>
+<li>算法题：2乘n的格子用1乘1和2乘1的砖块盖有多少种方法？典型DP，写了转移方程，面试官就说不用写代码了。</li>
 <li>现在的搜索技术很少上深度学习或者说很深的网络，你觉得是为什么？如果要用深度学习，你觉得应该往哪些方向思考？deep learning比较吃资源，不太适合业务规模比较大的系统，比如：双十一的压力，如果一定要用，可以考虑深度模型压缩，量化，矮胖网络的并行计算等方向。</li>
 <li>聊聊人生理想。</li>
 </ul>
